@@ -2,6 +2,7 @@
  * Copyright (c) 2020 The ZMK Contributors
  *
  * SPDX-License-Identifier: MIT
+ * ()()))))(((***&&&&&&&&&&^^^^^&*()~)~~~~00000999999999999000999))
  */
 
 #include <behaviors.dtsi>
@@ -26,10 +27,10 @@
         lower_layer {
             display-name = "Lower";
             bindings = <
-&trans      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                     &trans  &trans     &trans    &trans    &trans         &bt BT_CLR
-&kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                                           &kp F7  &kp F8     &kp F9    &kp F10   &kp F11        &kp F12
-&trans      &trans        &trans        &trans        &trans        &trans                                           &trans  &trans     &trans    &trans    &trans         &trans
-&trans      &trans        &trans        &trans        &trans        &trans        &kp LESS_THAN    &kp GREATER_THAN  &trans  &kp MINUS  &kp PLUS  &kp PIPE  &kp BACKSLASH  &trans
+&trans      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                     &trans  &trans     &trans    &kp MINUS   &kp PLUS         &bt BT_CLR
+&kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                                           &kp F7  &kp F8     &kp F9    &kp F10     &kp F11          &kp F12
+&trans      &trans        &trans        &trans        &trans        &trans                                           &trans  &trans     &trans    &trans      &trans           &trans
+&trans      &trans        &trans        &trans        &trans        &trans        &kp LESS_THAN    &kp GREATER_THAN  &trans  &kp MINUS  &kp PLUS  &kp PIPE    &kp BACKSLASH    &trans
                                         &trans        &trans        &trans        &trans           &trans            &trans  &trans     &trans
             >;
         };
